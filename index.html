@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" ng-app="portaoweb">
 
 <head>
@@ -19,8 +19,8 @@
 		</div>
 
 		<div class="panel-body">
-			<button ng-click="portao()" type="button" class="btn btn-primary btn-block btn-lg"><i class="fa fa-male fa-4x fa-fw" aria-hidden="true"></i><br />Portão</button>
-			<button ng-click="garagem()" type="button" class="btn btn-warning btn-block btn-lg"><i class="fa fa-car fa-4x fa-fw" aria-hidden="true"></i><br />Garagem</button>
+			<button ng-disabled="loading" ng-click="portao()" type="button" class="btn btn-primary btn-block btn-lg"><i class="fa fa-male fa-4x fa-fw" aria-hidden="true"></i><br />Portão</button>
+			<button ng-disabled="loading" ng-click="garagem()" type="button" class="btn btn-warning btn-block btn-lg"><i class="fa fa-car fa-4x fa-fw" aria-hidden="true"></i><br />Garagem</button>
 		</div>
 	</div>
 
